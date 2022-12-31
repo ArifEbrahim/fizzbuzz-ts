@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.add = void 0;
-const add = (num1, num2) => num1 + num2;
-exports.add = add;
+const fizzbuzz = (num) => {
+    return num % 3 === 0 ? 'Fizz' : num;
+};
+exports.default = fizzbuzz;

@@ -11,7 +11,10 @@ describe('Fizzbuzz', () => {
     test('should return the number when not divisible by 3', () => {
         expect((0, __1.default)(1)).toEqual(1);
     });
-    test('should return fizz when divisible by 5', () => {
+    test('should return buzz when divisible by 5', () => {
         expect((0, __1.default)(5)).toEqual('Buzz');
+    });
+    test('should return fizzbuzz when divisible by 15', () => {
+        expect((0, __1.default)(15)).toEqual('FizzBuzz');
     });
 });
